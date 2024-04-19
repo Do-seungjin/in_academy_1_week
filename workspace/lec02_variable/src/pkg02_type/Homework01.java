@@ -10,7 +10,7 @@ public class Homework01 {
 		System.out.println("몸무게(kg) : "+weight);
 		double height=sc.nextDouble();
 		System.out.println("키(m) : "+height);
-		System.out.println("BMI 지수 : "+(weight/(height*height)));
+		System.out.println("BMI 지수 : %.1f",(weight/(height*height)));
 		
 		sc.close();
 
